@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+background-image: linear-gradient(45deg,red,blue);
+display:flex;
+align-items: center;
+justify-content:center;
+height:100vh
+}
+
+div{
+    position:absolute;
+    bottom: 20px;
+    background-color:darksalmon;
+    padding: 20px;
+    font-size: 18px;
+}
+input{
+width: 50px;
+padding: 5px;
+font-size: 18px;
+background-color: darksalmon;
+border: none;
+text-align: center;
+}
+input:focus{
+    outline: none;
+
+}
